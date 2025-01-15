@@ -6,7 +6,7 @@ const asiakkaat = [{id: 1, nimi: "Matias Kelopää", puh: "0502837839"},
     {id: 3, nimi: "Raimo Pietilä", puh: "040266659"}
 ]
 
-asiakkaat[0].puh = "1234567"
+asiakkaat[0].puh = "09876543"
 
 asiakkaat.forEach(asiakas => {
     console.log("Asiakkaan nimi on " + asiakas.nimi)
